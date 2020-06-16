@@ -1,0 +1,160 @@
+body {
+  color: rgb(30, 30, 30);     /* Text color */
+	background-color: #F7F3E3;  /* Background color */
+	font-family: Roboto, serif;
+	font-size: 15px;
+	line-height: 1.6;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-size: 30px;
+  	color: #45B69C;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: 900;
+}
+
+h2 {
+  	color: #45B69C;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+img {
+	width: 100px;
+}
+
+a:hover {
+		background-color: #F7F3E3;
+		transition: 0.3s ease;
+		text-decoration: none;
+} 
+
+
+.container {
+	width: 900px;
+	margin: 10px auto;
+}
+
+#logo { /* select the element with the id="logo" */
+  width: 120px;
+  border-radius: 50%;
+  border: 5px solid #45B69C;
+
+}
+
+.card-white {
+margin: 20px 20px; /* 80px of top/bottom margin and 0px of left/right margin*/
+padding: 40px 24px; /* 0px of top/bottom padding and 24px of left/right padding*/
+border-radius: 20px;
+background-color: white;
+}
+
+.card-whiteone {
+	margin: 10px 20px 10px 20px; /* 80px of top/bottom margin and 0px of left/right margin*/
+	padding: 40px 24px; /* 0px of top/bottom padding and 24px of left/right padding*/
+	border-radius: 20px;
+	background-color: white;
+	text-align: center;
+}
+
+.card-whitelast {
+	margin: 20px 20px; /* 80px of top/bottom margin and 0px of left/right margin*/
+	padding: 40px 24px; /* 0px of top/bottom padding and 24px of left/right padding*/
+	border-radius: 20px;
+	background-color: white;
+	text-align: center;
+}
+
+.btn-blue {
+	background-color: #45B69C;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.btn-blue:hover {
+	background-color: grey;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+.list-inline li {
+	display:inline;
+	width: 30px
+}
+
+
+.list-inline i {
+	font-size: 30px;
+}
+
+
+
+.header-menu1{
+	text-align:center;
+}
+
+.header-menu li {
+	display:inline;
+}
+
+.header-menu {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+.li-menu {
+ margin-left:2px;
+/* float:left;*/
+ }
+ul li a {
+ /*display:block;
+ float:left;   */
+ width:100px;
+ background-color:#45B69C;
+ color:white;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ }
+ul li a:hover {
+ background-color:grey;
+ } 
+
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
